@@ -1,0 +1,68 @@
+*{ background-color: rgb(15, 15, 13);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.76)), url('https://images3.alphacoders.com/121/1219688.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:rgb(255, 255, 255);
+    text-align: center ;
+    font-family: 'Alice';
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10x;
+    margin-top: 10px;
+    }
+
+    #imgNN {
+        border-radius: 1000px;
+        height:400px;
+        width: 400px; 
+    }
+    .texto{
+        text-align: justify
+    }
+
+    #NN{
+font-family:'Dancing Script' ;
+font-size: 300%;
+font-size: 77px;text-shadow: 0px 20px 7px rgba(60, 68, 15, 0.815);
+}
+
+.titulos{
+    font-family: 'Alice';
+    src: url('https://fonts.google.com/specimen/Alice');
+    font-weight:bold;
+    font-size: 200%;
+}
+
+    .divLinea{
+        display: block;
+        
+    }
+
+    .divLinea2{
+        display: block;
+    }
+
+    .flex1 {
+        width: 400px;
+        height: 200px;
+        background-color: burlywood;
+        margin: 15px;
+        color: beige;
+        font-size: 200%;
+    }
+
+.flexLista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caja{
+    position:relative;
+    display: inline-block;
+}
+.texto1{
+    font: italic;
+color: rgb(252, 241, 189);
+}
