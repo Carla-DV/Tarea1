@@ -1,4 +1,4 @@
-*{ background-color: rgb(15, 15, 13);
+* { background-color: rgb(15, 15, 13);
     background-image:linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.76)), url('https://images3.alphacoders.com/121/1219688.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,24 +8,34 @@
     font-family: 'Alice';
     margin-bottom: 10px;
     margin-left: 5px;
-    margin-right: 10x;
+    margin-right: 5px;
     margin-top: 10px;
     }
 
-    #imgNN {
-        border-radius: 1000px;
-        height:400px;
-        width: 400px; 
-    }
-    .texto{
-        text-align: justify
+#imgNN {
+    border-radius: 1000px;
+    height:400px;
+    width: 400px; 
+    padding: 20px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.37), -1em 0 .4em rgba(0, 0, 0, 0.199);
+}
+
+.texto{
+    text-align: justify;
+    margin-left: 80px ;
+    margin-right: 80px;
     }
 
-    #NN{
-font-family:'Dancing Script' ;
-font-size: 300%;
-font-size: 77px;text-shadow: 0px 20px 7px rgba(60, 68, 15, 0.815);
+#NN{
+    font-family:'Dancing Script' ;
+    font-size: 300%;
+    font-size: 77px;text-shadow: 0px 10px 7px rgba(25, 29, 6, 0.815);
 }
+
+#NN1{
+    font-size: 200%;
+    text-shadow: 0px 10px 9px rgba(25, 29, 6, 0.815);
+    }
 
 .titulos{
     font-family: 'Alice';
@@ -34,35 +44,76 @@ font-size: 77px;text-shadow: 0px 20px 7px rgba(60, 68, 15, 0.815);
     font-size: 200%;
 }
 
-    .divLinea{
-        display: block;
-        
+.divLinea{
+    display: block;
+    margin: 15px 
     }
 
-    .divLinea2{
-        display: block;
+.divLinea2{
+    display: block;
+    margin: 15px;
     }
 
-    .flex1 {
-        width: 400px;
-        height: 200px;
-        background-color: burlywood;
-        margin: 15px;
-        color: beige;
-        font-size: 200%;
-    }
+.flex1 {
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    padding: 2px;
+    color: beige;
+    font-size: 200%;
+}
 
 .flexLista{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
 .caja{
     position:relative;
     display: inline-block;
 }
+
 .texto1{
     font: italic;
-color: rgb(252, 241, 189);
+    color: rgb(252, 241, 189);
 }
+
+
+.contornovideo{
+    border-radius: 15%;
+    
+}
+
+#navegacion { 
+	width: 100%;
+	margin: 2px ;
+	background: rgba(0, 0, 0, 0); 
+    background-position: top;
+
+}
+
+#navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 15px;
+	color: rgb(255, 255, 255);
+	font-family: 'Alice';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: rgb(226, 209, 58);
+	transition: all .3s;
+}
+
+   
